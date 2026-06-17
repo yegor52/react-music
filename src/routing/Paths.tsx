@@ -5,8 +5,8 @@ import Details from '../pages/Details/Details'
 const Paths = () => {
     return (
         <Routes>
-            <Route path='/' element={<Music/>} />
-            <Route path='/:id' element={<Details/>} />
+            <Route path='/react-music' element={<Music/>} />
+            <Route path='/react-music/:id' element={<Details/>} />
         </Routes>
     )
 }

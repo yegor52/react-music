@@ -11,7 +11,7 @@ const Card = ({track}: CardProps) => {
     const navigate = useNavigate()
 
     const handleDetailsClick = () => {
-        navigate(`/${track.id}`)
+        navigate(`/react-music/${track.id}`)
     }
     return(
         <>

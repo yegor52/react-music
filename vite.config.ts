@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type ConfigEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }: ConfigEnv) => ({
   plugins: [react()],
-  
-})
+  base: command === 'build' ? '/react-music/' : '/',
+}))

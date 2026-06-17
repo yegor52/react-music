@@ -34,7 +34,7 @@ const Details = () => {
     return (
         <div className={styles.contentDetailBlock}>
             <div className={styles.buttonBack}>
-                <button className={styles.back} onClick={() => navigate('/')}>Back</button>
+                <button className={styles.back} onClick={() => navigate('/react-music')}>Back</button>
             </div>
             <div className={styles.cardTrack}>
                 <div className={styles.coverTrack}>
