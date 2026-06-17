@@ -1,0 +1,32 @@
+.banner {
+    width: 100%;           
+    max-width: 1920px;     
+    height: auto;          
+    background-image: url(../../assets/bg.jpg);
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.name {
+    padding-top: 720px;
+    padding-bottom: 80px;
+    padding-left: 150px;
+    font-family: 'BBH Hegarty';
+    font-size: 128px;
+}
+
+.transition {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-gray);
+}
+
+.transitionText {
+    font-family: 'Big Shoulders Inline';
+    font-weight: 400;
+    font-size: 64px;
+    opacity: 0.5;
+}

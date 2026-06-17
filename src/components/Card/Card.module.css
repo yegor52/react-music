@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    border: var(--border);
+    padding: 34px 30px;
+    height: 100%;           
+    justify-content: space-between;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.songName {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.author {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-gray2);
+}
+
+.genre {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-gray2);
+}
+
+.details {
+    background-color: var(--color-white);
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-black);
+    padding: 14px 50px;
+}

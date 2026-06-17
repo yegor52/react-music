@@ -1,0 +1,71 @@
+.contentDetailBlock {
+    background-image: url(../../assets/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    width: 100%;       
+    margin: 0 auto;  
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    position: relative;
+}
+
+.cardTrack {
+    display: flex;
+    gap: 50px;
+    padding: 30px 35px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    height: 480px;
+    background-color: var(--color-bg);
+    border: var(--border);
+}
+
+/* .imgTrack {
+    width: 360px;
+    /* height: 360px; */
+    /* object-fit: cover;
+} */ 
+
+.buttonBack {
+    display: flex;
+    justify-content: flex-end;
+    width: 1080px;             
+}
+
+.back {
+    background-color: var(--color-white);
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-black);
+    padding: 14px 50px;
+}
+
+.nameTrack {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;  
+}
+
+.item {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+}
